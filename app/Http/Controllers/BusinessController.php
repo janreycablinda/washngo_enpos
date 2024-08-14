@@ -189,7 +189,7 @@ class BusinessController extends Controller
             }
             
             //default enabled modules
-            $business_details['enabled_modules'] = ['purchases','add_sale','pos_sale','stock_transfers','stock_adjustment','expenses'];
+            $business_details['enabled_modules'] = ['purchases','add_sale','pos_sale','transaction','stock_transfers','stock_adjustment','expenses'];
             
             $business = $this->businessUtil->createNewBusiness($business_details);
 

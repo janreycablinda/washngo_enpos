@@ -145,6 +145,8 @@ Route::middleware(['setData', 'auth', 'SetSessionData', 'language', 'timezone', 
 
     Route::resource('pos', 'SellPosController');
 
+    Route::resource('transaction', 'TransactionController');
+
     Route::resource('roles', 'RoleController');
 
     Route::resource('users', 'ManageUserController');

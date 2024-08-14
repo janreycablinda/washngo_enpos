@@ -476,6 +476,7 @@ class ModuleUtil extends Util
             'purchases' => ['name' => __('purchase.purchases')],
             'add_sale' => ['name' => __('sale.add_sale')],
             'pos_sale' => ['name' => __('sale.pos_sale')],
+            'transaction' => ['name' => __('sale.transaction')],
             'stock_transfers' => ['name' => __('lang_v1.stock_transfers')],
             'stock_adjustment' => ['name' => __('stock_adjustment.stock_adjustment')],
             'expenses' => ['name' => __('expense.expenses')],

@@ -68,9 +68,9 @@
           @endcan
         @endif
 
-        @if(in_array('pos_sale', $enabled_modules))
-          @can('sell.create')
-            <a href="{{action('SellPosController@create')}}" title="TRANSACTION" data-toggle="tooltip" data-placement="bottom" class="btn btn-flat pull-left m-8 btn-sm mt-10 btn-success">
+        @if(in_array('transaction', $enabled_modules))
+          @can('transaction.create')
+            <a href="{{action('TransactionController@create')}}" title="TRANSACTION" data-toggle="tooltip" data-placement="bottom" class="btn btn-flat pull-left m-8 btn-sm mt-10 btn-success">
               <strong><i class="fa fa-th-large"></i> &nbsp; TRANSACTION</strong>
             </a>
           @endcan
